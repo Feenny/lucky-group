@@ -328,9 +328,6 @@ user-3 {
   animation: rotate 25s linear 5.7s infinite;
 }
 @keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
   100% {
     transform: rotate(360deg);
   }
@@ -361,9 +358,19 @@ user-3 {
   -webkit-transform: scale(0.2);
   height: 60px;
 }
-.circle-icon.active {
+.circle-icon {
   opacity: 1;
 }
+.circle-icon img {
+  width: 100%;
+  animation: rotate-icon 25s linear 5.7s infinite;
+}
+@keyframes rotate-icon {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 .circle-icon.in-3.active {
   transition: var(--icon-flag-transition) 3s;
   -webkit-transform: translate(-268px, 80px) scale(1);
