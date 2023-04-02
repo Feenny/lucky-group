@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Testing Template</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__wrapper">
+        <div class="logo">
+          <img class="logo__img" src="source/Logo.svg" alt="" />
+          <span class="logo__text">Global</span>
+        </div>
+        <ul class="navigation">
+          <li class="nav__elem active"><a href="">Mobile Top Up</a></li>
+          <li class="nav__elem"><a href="">About</a></li>
+          <li class="nav__elem"><a href="">Rate</a></li>
+          <li class="nav__elem"><a href="">Help</a></li>
+        </ul>
+        <a href="" class="button sign-up-btn">Sign Up</a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="content">
+        <h1 class="main-text">
+          Now Buy Your PIN or <span class="highlight-text">Top Up</span>
+        </h1>
+        <h2 class="main-text">With Bank Transfer</h2>
+        <p class="paragraph">
+          We Make international calling simple, relible, and cheap basedon your
+          unique calling behavior.
+        </p>
+        <a class="button start-btn" href="">Get Started</a>
+        <div class="search">
+          <input
+            class="search-input"
+            type="text"
+            maxlength="12"
+            pattern="^(?:(?![!@#$%^&*()])[a-zA-Z0-9]){4,12}$"
+            placeholder="Where do you want to call?"
+          />
+          <span class="input-invalid"
+            >Введите от 4 до 12 символов. Не используйте символы
+            !@#$%^&*()</span
+          >
+
+          <a class="button search-btn" href="">
+            <div class="search-icon">
+              <span class="search-icon-circle"></span>
+              <span class="search-icon-line"></span>
+            </div>
+          </a>
+        </div>
+        <div class="user-bar">
+          <div class="user-list">
+            <button class="user-plus__btn"></button>
+            <img class="user-list__img user-1" src="source/user-1.png" alt="" />
+
+            <img class="user-list__img user-2" src="source/user-2.png" alt="" />
+
+            <img class="user-list__img user-3" src="source/user-3.png" alt="" />
+            <img
+              class="user-list__img user-plus"
+              src="source/user-plus.png"
+              alt=""
+            />
+          </div>
+          <div class="user-text">
+            <p>
+              45k+ Regular User.
+              <a class="highlight-text" href=""> View Price Plan</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="img-girl-section">
+        <div class="img-girl-wrapper">
+          <div class="circle-wrapper">
+            <div class="circle-out">
+              <img class="circle-icon gb" src="source/icon-gb.png" alt="" />
+              <img class="circle-icon it" src="source/icon-it.png" alt="" />
+              <img class="circle-icon in-1" src="source/icon-in.png" alt="" />
+              <img class="circle-icon in-2" src="source/icon-in.png" alt="" />
+              <img class="circle-icon in-3" src="source/icon-in.png" alt="" />
+            </div>
+            <div class="circle-in"></div>
+          </div>
+          <img class="girl" src="source/girl.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
