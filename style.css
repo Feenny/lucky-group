@@ -32,7 +32,7 @@
   );
   --flag-icon-size: calc(var(--index) * 2);
   --header-height: calc(var(--index) * 4);
-  --header-mobile-height: calc(var(--index) * 4);
+  --header-mobile-height: calc(var(--index) * 5.5);
   --page-width: 80vw;
   --page-tab-width: 85vw;
   --page-mobile-width: 93vw;
@@ -547,12 +547,13 @@ h2.main-text {
     flex-direction: column;
     gap: 0;
     top: var(--header-mobile-height);
-    -webkit-backdrop-filter: blur(25px);
-    backdrop-filter: blur(25px);
     position: absolute;
     left: 0;
     transform: translateX(-100vw);
+    background-color: #ffffff;
     background: #ecf7f36e;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
     padding-left: calc((100vw - var(--page-mobile-width)) / 1);
   }
   .nav__active {
@@ -574,7 +575,7 @@ h2.main-text {
     order: -1;
   }
   .logo__img {
-    width: calc(var(--index) * 3);
+    width: calc(var(--index) * 4);
     margin-right: 0;
     position: absolute;
     right: 0;
@@ -582,8 +583,8 @@ h2.main-text {
     margin: 0 auto;
   }
   .sign-up-btn {
-    width: calc(var(--index) * 3);
-    height: calc(var(--index) * 3);
+    width: calc(var(--index) * 4);
+    height: calc(var(--index) * 4);
     padding: 0;
     border-radius: 50%;
     position: relative;
