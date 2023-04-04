@@ -547,6 +547,7 @@ h2.main-text {
     flex-direction: column;
     gap: 0;
     top: var(--header-mobile-height);
+-webkit-backdrop-filter: blur(25px);
     backdrop-filter: blur(25px);
     position: absolute;
     left: 0;
