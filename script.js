@@ -62,7 +62,7 @@ const mobileAppear = (e) => {
   document.querySelector(".input-invalid").classList.remove("appear");
 };
 window.addEventListener("touchmove", mobileAppear);
-
+setTimeout(mobileAppear, 6000);
 let nav_opened = false;
 
 function openNav() {
